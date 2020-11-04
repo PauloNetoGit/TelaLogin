@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <title>Login</title>
+</head>
+
+<body>
+    <img src="SVG/fundo.svg" id="fundo" alt="logo">
+    <img src="SVG/sombra.svg" id="sombra" alt="logo">
+    <img src="SVG/logo.svg" id="logo" alt="logo">
+
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+        laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+        ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor
+        in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+        vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis
+        dolore te feugait nulla facilisi.</p>
+
+    <div class="colunaEsquerda" method="POST">
+        <img src="SVG/usuario.svg" id="usuario" alt="usuário">
+        <form id="container" method="POST">
+            <input class="input" name="user" type="text" id="user" placeholder="User"><br>
+            <input class="input" name="pass" type="password" id="password" placeholder="Password"><br>
+            <input type="button" value="SIGN UP" id="botao" onclick="validacao()"><br>
+
+            <input class="check" type="checkbox">
+            <div class="remember" type="text">Remember me</div>
+        </form>
+
+        <nav id="menu">
+            <ul>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Sign Up</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="socialMidia">
+        <img src="SVG/twit.svg" id="social" alt="twit">
+        <img src="SVG/insta.svg" id="social" alt="insta">
+        <img src=" SVG/face.svg" id="social" alt="face">
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,141 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #353b48;
+}
+
+/*Coluna Esquerda*/
+.colunaEsquerda {
+    background: white;
+    position: absolute;
+    left: 170px;
+    height: 590px;
+    width: 700px;
+    top: 85px;
+}
+
+#container {
+    top: 300px;
+    width: 600px;
+    text-align: center;
+    position: absolute;
+    left: 50px;
+}
+
+.colunaEsquerda #container .input {
+    padding: 6px;
+    margin: 10px;
+    width: 500px;
+    border: none;
+    border-bottom: 1px solid #b6b6b6;
+}
+
+.colunaEsquerda #container #botao {
+    outline: none;
+    padding: 13px;
+    margin: 20px;
+    width: 520px;
+    font-weight: 700;
+    color: white;
+    border: 0;
+    transition: 0.30s;
+    outline: none;
+    background-image: linear-gradient(to right, #fbb03b, #c1272d);
+}
+
+.colunaEsquerda #container #botao:hover,
+.colunaEsquerda #container #botao:focus {
+    border: 1px solid #ff5e00;
+    width: 150px;
+    background: #ff5e00;
+    color: rgb(255, 255, 255);
+    transition: 1.00s;
+    cursor: pointer;
+    border-radius: 50px;
+
+}
+
+.colunaEsquerda #container .remember {
+    left: 70px;
+    position: absolute;
+    opacity: 70%;
+    top: 180px;
+}
+
+.colunaEsquerda #container .check {
+    left: 40px;
+    position: absolute;
+    opacity: 70%;
+    top: 180px;
+}
+
+#menu {
+    position: absolute;
+    top: 30px;
+    left: 485px;
+}
+
+#menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#menu ul li{
+    display: inline;
+}
+
+#menu ul li a {
+    font-weight: 700;
+    padding: 2px 8px;
+    display: inline-block;
+    color: #ff5e00;
+    text-decoration: none;
+}
+
+#usuario {
+    width: 120px;
+    transform: translate(240%, 100%);
+}
+
+#social {
+    width: 42px;
+    position: relative;
+    top: 580px;
+    left: 645px;
+    cursor: pointer;
+}
+
+/*Coluna Direita*/
+#logo {
+    width: 200px;
+    left: 1000px;
+    top: 150px;
+    position: absolute;
+}
+
+#fundo {
+    top: 79px;
+    height: 600px;
+    width: 450px;
+    left: 880px;
+    position: absolute;
+}
+
+#sombra {
+    top: 82px;
+    height: 598px;
+    width: 450px;
+    left: 880px;
+    position: absolute;
+}
+
+p {
+    color: white;
+    position: absolute;
+    width: 360px;
+    font-size: 10px;
+    left: 930px;
+    top: 370px;
+}
